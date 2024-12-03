@@ -1,0 +1,15 @@
+:root {
+    --color: #457b9d;
+    --spacing: 10px;
+    --blur: 2px;
+}
+
+img.controlled-image {
+    padding: var(--spacing);
+    background-color: var(--color);
+    filter: blur(var(--blur));
+}
+
+.highlight {
+    color: var(--color);
+}
